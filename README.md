@@ -1,53 +1,57 @@
-# 📘 ECOT12 - Projeto de Software  
+# 📘 ECOT12 - Software Project  
 
-Repositório com os códigos desenvolvidos nas aulas experimentais da disciplina **Projeto de Software (ECOT12)**.  
+Repository containing the code developed during the experimental classes of the **Software Project (ECOT12)** course.
 
----
-
-## 🎯 Programa de Curso  
-A disciplina tem como objetivo:  
-- Compreender o processo de **projeto de software orientado a objetos**.  
-- Representar situações do mundo real com **diagramas de classes UML**.  
-- Converter diagramas de classes UML em **código Java**.  
-- Aplicar **padrões de projeto** de criação, estruturação e comportamento.  
-
-📌 Disciplina ministrada pelo professor **Dr. Enzo Seraphim**.  
+![GitHub repo size](https://img.shields.io/github/repo-size/12FlyBreads/ecot12-Projeto-Software?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/12FlyBreads/ecot12-Projeto-Software?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
-## 🛠️ Tecnologias Utilizadas  
-- **Maven** → Ferramenta de build e gerenciamento de dependências.  
-- **DIA** → Software para desenho de diagramas UML.
+## 🎯 Course Objectives  
+The course aims to:  
+- Understand the **object-oriented software design process**.  
+- Represent real-world situations using **UML class diagrams**.  
+- Convert UML class diagrams into **Java code**.  
+- Apply **design patterns** for creation, structuring, and behavior.  
+
+📌 Course taught by **Dr. Enzo Seraphim**.  
+
+---
+
+## 🛠️ Technologies Used  
+- **Maven** → Build tool and dependency management.  
+- **DIA** → Software for drawing UML diagrams.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) 
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)  
 
 ---
 
-## 🧪 Laboratórios  
-- **lab04** → Classe *Naruto*  
+## 🧪 Labs (Branches)  
+- **lab04** → naruto-class  
 
 ---
 
-## 🚀 Como Rodar os Códigos  
+## 🚀 How to Run the Code  
 
-1. **Clonar o repositório**  
+1. **Clone the repository**  
    ```bash
-   git clone <url-do-repositorio>
+   git clone git@github.com:12FlyBreads/ecot12-codes.git
    ```
-2. **Trocar a branch**
+2. **Switch to the branch**
    ```bash
-   git checkout <nome-da-branch>
+   git checkout <branch-name>
    ```
-3. **Pull**
+3. **Pull the lastest changes**
    ```bash
-   git pull origin <nome-da-branch>
+   git pull origin <branch-name>
    ```
-4. **Compile**
+4. **Compile the project**
    ```bash
    mvn clean compile
    ```
-5. **Run**
+5. **Run the project**
    ```bash
-   mvn exec:java -Dexec.mainClass="<nome-do-pacote>.<ClassePrincipal>"
+   mvn exec:java -Dexec.mainClass="<package-name>.<MainClass>"
    ```
