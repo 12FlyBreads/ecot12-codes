@@ -8,13 +8,131 @@ Repository containing a set of classes based on the **Naruto** anime.
 
 The classes were developed following the **UML diagram** to represent their structure and relationships.
 
-<img width="1237" height="758" alt="image" src="https://github.com/user-attachments/assets/bc906b6c-4c15-4e5a-9f0a-1edd922a67fb" />
+```mermaid
+classDiagram
+    class EntidadePolitica {
+        <<abstract>>
+        -nome: String
+        -atuacao: String
+    }
+
+    class Pais {
+        -localizacao: String
+        -estilo: String
+    }
+
+    class Vila {
+        -localizacao: String
+        -bandana: String
+    }
+
+    class Cla {
+        -simbolo: String
+    }
+
+    class KekkeiGenkai {
+        -nome: String
+        -caracteristica: String
+        -descricao: String
+        -ativado: boolean
+    }
+
+    class Artefato {
+        -nome: String
+        -tipo: String
+        -raridade: int
+        -proibido: boolean
+        -habilidade: String
+        -localizacao: String
+    }
+
+    class Ser {
+        <<abstract>>
+        -nome: String
+        -apelido: String
+        -chakra: int
+    }
+
+    class Shinobi {
+        -sexo: String
+        -nascimento: Date
+        -categoria: String
+        -renegado: boolean
+    }
+
+    class Time {
+        -numero: int
+        -ativo: boolean
+    }
+
+    class Missao {
+        -rank: String
+        -descricao: String
+        -recompensa: String
+    }
+
+    class Jutsu {
+        <<abstract>>
+        -nome: String
+        -proibido: boolean
+        -efeito: String
+    }
+
+    class Taijutsu {
+        -forca: int
+        -velocidade: int
+    }
+
+    class Ninjutsu {
+        -duracao: int
+    }
+
+    class Genjutsu {
+        -sentido: String
+    }
+
+    class Bijuu {
+        -totalCaudas: int
+        -forma: String
+    }
+
+    class Humano {
+        -sexo: String
+        -nascimento: Date
+        -classeSocial: String
+    }
+
+    %% --- Heranças ---
+    EntidadePolitica <|-- Pais
+    EntidadePolitica <|-- Vila
+    Vila <|-- Cla
+    Cla <|-- KekkeiGenkai
+    Ser <|-- Shinobi
+    Ser <|-- Bijuu
+    Ser <|-- Humano
+    Ser <|-- Artefato
+    Jutsu <|-- Taijutsu
+    Jutsu <|-- Ninjutsu
+    Jutsu <|-- Genjutsu
+
+    %% --- Relacionamentos ---
+    Pais "1" --> "1" Vila : governa
+    Vila "1" --> "1..*" Shinobi : lidera
+    Vila "1" --> "1..*" Cla : clas
+    Cla "1" --> "1..*" Shinobi : shinobis
+    Shinobi "1" --> "*" KekkeiGenkai : kekkeigenkais
+    Shinobi "1" --> "*" Time : shinobis
+    Shinobi "1" --> "1" Bijuu : bijuus
+    Shinobi "*" --> "*" Jutsu : jutsus
+    Time "1" --> "*" Missao : missoes
+```
 
 ---
 
 ## 📂 Project Organization
 
 The project files are organized to facilitate understanding and maintenance, following a clear folder and class structure.
+
 
 
 
