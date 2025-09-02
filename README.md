@@ -105,12 +105,15 @@ classDiagram
     %% --- Heranças ---
     EntidadePolitica <|-- Pais
     EntidadePolitica <|-- Vila
-    Vila <|-- Cla
-    Cla <|-- KekkeiGenkai
+    EntidadePolitica <|-- Cla
+    Vila --o Pais
+    Cla --o Vila
+    Cla <.. KekkeiGenkai
     Ser <|-- Shinobi
     Ser <|-- Bijuu
     Ser <|-- Humano
-    Ser <|-- Artefato
+    Ser --* Artefato
+    Ser --* Vila
     Jutsu <|-- Taijutsu
     Jutsu <|-- Ninjutsu
     Jutsu <|-- Genjutsu
@@ -159,6 +162,7 @@ The project files are organized to facilitate understanding and maintenance, fol
 │   └── Vila.java
 └── ...
 ```
+
 
 
 
