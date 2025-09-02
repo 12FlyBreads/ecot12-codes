@@ -113,7 +113,7 @@ classDiagram
     Ser <|-- Bijuu
     Ser <|-- Humano
     Ser --* Artefato
-    Ser --* Vila
+    Ser --o Vila
     Jutsu <|-- Taijutsu
     Jutsu <|-- Ninjutsu
     Jutsu <|-- Genjutsu
@@ -162,6 +162,7 @@ The project files are organized to facilitate understanding and maintenance, fol
 │   └── Vila.java
 └── ...
 ```
+
 
 
 
