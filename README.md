@@ -133,6 +133,26 @@ classDiagram
 
 The project files are organized to facilitate understanding and maintenance, following a clear folder and class structure.
 
+```bash
+├── base
+└── src/main/java/br/edu/unifei/ecot12/naruto/ # Project Classes
+    ├── Artefato.java
+    ├── Bijuu.java
+    ├── Cla.java
+    ├── EntidadePolitica.java
+    ├── Genjutsu.java
+    ├── Jutsu.java
+    ├── KekkeiGenkai.java
+    ├── Main.java # Main file
+    ├── Missao.java
+    ├── Ninjutsu.java
+    ├── Pais.java
+    ├── Ser.java
+    ├── Shinobi.java
+    ├── Taijutsu.java
+    ├── Time.java
+    └── Vila.java
+```
 
 
 
