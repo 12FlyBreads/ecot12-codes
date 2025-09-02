@@ -134,25 +134,32 @@ classDiagram
 The project files are organized to facilitate understanding and maintenance, following a clear folder and class structure.
 
 ```bash
+.
 ├── base
+│   ├── ecot12-lab04.pdf # Lab Guide
+│   ├── naruto-inicial.dia # UML Diagram
+│   ├── naruto-inicial.png # Diagram .png file
+│   └── naruto-inicial.png~
 └── src/main/java/br/edu/unifei/ecot12/naruto/ # Project Classes
-    ├── Artefato.java
-    ├── Bijuu.java
-    ├── Cla.java
-    ├── EntidadePolitica.java
-    ├── Genjutsu.java
-    ├── Jutsu.java
-    ├── KekkeiGenkai.java
-    ├── Main.java # Main file
-    ├── Missao.java
-    ├── Ninjutsu.java
-    ├── Pais.java
-    ├── Ser.java
-    ├── Shinobi.java
-    ├── Taijutsu.java
-    ├── Time.java
-    └── Vila.java
+│   ├── Artefato.java
+│   ├── Bijuu.java
+│   ├── Cla.java
+│   ├── EntidadePolitica.java
+│   ├── Genjutsu.java
+│   ├── Jutsu.java
+│   ├── KekkeiGenkai.java
+│   ├── Main.java # Main file
+│   ├── Missao.java
+│   ├── Ninjutsu.java
+│   ├── Pais.java
+│   ├── Ser.java
+│   ├── Shinobi.java
+│   ├── Taijutsu.java
+│   ├── Time.java
+│   └── Vila.java
+└── ...
 ```
+
 
 
 
