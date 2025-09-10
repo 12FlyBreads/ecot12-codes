@@ -29,7 +29,9 @@ The course aims to:
 ---
 
 ## 🧪 Labs (Branches)  
-- **lab04** → naruto-class  
+- **lab04** → naruto-class
+- **lab05** → spider-class
+- **lab05** → eletrica-class
 
 ---
 
