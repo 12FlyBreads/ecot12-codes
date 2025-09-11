@@ -1,6 +1,6 @@
 # 📘 ECOT12 - Software Project  
 
-Repository containing the code developed during the experimental classes of the **Software Project (ECOT12)** course.
+Repository containing the codes developed during the experimental classes of the **Software Project (ECOT12)** course.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/12FlyBreads/ecot12-Projeto-Software?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/12FlyBreads/ecot12-Projeto-Software?style=for-the-badge)
