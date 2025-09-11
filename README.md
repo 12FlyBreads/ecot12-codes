@@ -20,11 +20,11 @@ The course aims to:
 ---
 
 ## 🛠️ Technologies Used  
+- **Java** → Programming language used for object-oriented software development.  
 - **Maven** → Build tool and dependency management.  
 - **DIA** → Software for drawing UML diagrams.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) 
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)  
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![DIA](https://img.shields.io/badge/DIA-0099FF?style=for-the-badge&logo=dia&logoColor=white)
 
 ---
 
