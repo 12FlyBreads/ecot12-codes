@@ -1,4 +1,4 @@
-﻿# ⚡ Fringe Class
+﻿# 🧑‍🔬 Fringe Class
 
 Repository containing a set of classes based on the **Fringe** series.
 
