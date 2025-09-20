@@ -32,6 +32,8 @@ The course aims to:
 - **lab04** → naruto-class
 - **lab05** → spider-class
 - **lab05** → eletrica-class
+- **lab06** → oraculo-class
+- **lab06** → fringe-class
 
 ---
 
